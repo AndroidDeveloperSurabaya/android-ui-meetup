@@ -7,6 +7,7 @@
     android:focusable="true"
     android:padding="16dp">
 
+    <!-- ImageView untuk avatar contact kita -->
     <ImageView
         android:id="@+id/image_contact"
         android:layout_width="56dp"
@@ -15,6 +16,7 @@
         android:layout_marginRight="16dp"
         android:src="@drawable/ic_avatar_accent" />
 
+    <!-- Contact name diletakkan di sebelah kanan avatar -->
     <TextView
         android:id="@+id/text_contact_name"
         android:layout_width="wrap_content"
@@ -25,6 +27,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#333" />
 
+    <!-- Contact message diletakkkan dibawah contact name dan sebelah kanan dari avatar -->
     <TextView
         android:id="@+id/text_contact_message"
         android:layout_width="wrap_content"
@@ -35,6 +38,7 @@
         android:text="Can't wait to see you!"
         android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
+    <!-- Contact time (waktu) yg diletakkan di pojok kanan atas dari Parent-nya (RelativeLayout) -->
     <TextView
         android:id="@+id/text_contact_time"
         android:layout_width="wrap_content"
