@@ -6,10 +6,10 @@ package me.inibukanadit.androidui;
 
 public class Contact {
 
-    private int mAvatar;
-    private String mName;
-    private String mMessage;
-    private String mTime;
+    private int mAvatar;            // untuk menyimpan contact avatar (resource id)
+    private String mName;           // menyimpan contact name
+    private String mMessage;        // menyimpan contact message
+    private String mTime;           // menyimpan contact time
 
     public Contact() {
     }
